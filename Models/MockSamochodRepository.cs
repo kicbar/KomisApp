@@ -7,7 +7,7 @@ namespace Komis.Models
     {
         private List<Samochod> samochody;
 
-        public MockSamochodRepository(List<Samochod> _samochody)
+        public MockSamochodRepository()
         {
             if (samochody == null)
             {
